@@ -6,7 +6,8 @@ body, h1, h2, h3 {
 }
 
 h1 {
-	
+	font-size: 4em;
+	padding: 50px 0 50px 0;
 }
 
 /* Section divisions */
@@ -23,6 +24,8 @@ h1 {
 
 .SCHeader {
 	background: #136fd2;
+	background-image: url('http://i.imgur.com/1qwfx28.jpg');
+	background-size: cover;
 }
 
 .SCContents {
