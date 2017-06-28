@@ -24,16 +24,47 @@ h1 {
 
 .SCHeader {
 	background: #136fd2;
-	background-image: url('http://i.imgur.com/73ERxLb.jpg');
+	background-image: url('http://i.imgur.com/OmHnMpT.jpg');
 	background-size: cover;
 	min-height: 385px;
 	background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
 }
 
-
 .SCContents {
-	background: #d43b03;
+	background: #136fd2;
+}
+
+/* Navbar styling */
+.navBar {
+    text-align: center;
+    background: #d43b03;
+    text-align: center;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0 0 0 -40px;
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 2% 4% 2% 4%;
+    font-size: 120%;
+    color: white;
+    transition: .3s ease-in-out;
+    margin: 0 -3px 0 0;
+}
+
+.navBar li:hover {
+    background: gray;
+}
+
+.navBar a {
+	color: rgba(0,0,0,0);
+}
+
+.navBar a:hover {
+    color: rgba(0,0,0,0);
 }
 
