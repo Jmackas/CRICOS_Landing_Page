@@ -91,6 +91,10 @@ a:hover {
     background: linear-gradient(to bottom, #000f20, #002145);
 }
 
+.SCContents p {
+	font-size: 100%;
+}
+
 .SCContents li {
     font-size: 127%;
     list-style-type: lower-roman;
