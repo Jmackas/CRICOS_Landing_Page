@@ -3,11 +3,13 @@ body, h1, h2, h3 {
 	margin: 0;
 	font-family: roboto;
 	color: white;
+
 }
 
 /* Section divisions */
 .SCHeader, .SCContents {
 	padding: 10px 30px 10px 90px;
+	transition: .7s ease-in-out;
 }
 
 @media only screen and (max-width: 400px) {
