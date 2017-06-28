@@ -24,11 +24,12 @@ h1 {
 
 .SCHeader {
 	background: #136fd2;
-	background-image: url('http://i.imgur.com/OmHnMpT.jpg');
+	background-image: url('http://i.imgur.com/Mnu4u4w.jpg');
 	background-size: cover;
 	min-height: 385px;
 	background-attachment: fixed;
-	background-position: center;
+	background-repeat:no-repeat;
+	background-position: 0 -424px;
 }
 
 .SCContents {
