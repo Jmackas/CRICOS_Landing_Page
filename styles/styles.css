@@ -1,9 +1,12 @@
-/* Universal divisions */
+/* Universal edits */
 body, h1, h2, h3 {
 	margin: 0;
 	font-family: roboto;
 	color: white;
+}
 
+h1 {
+	
 }
 
 /* Section divisions */
