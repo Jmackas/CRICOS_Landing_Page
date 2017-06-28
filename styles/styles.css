@@ -28,7 +28,7 @@ a:hover {
 
 /* Section divisions */
 .SCHeader, .SCContents {
-    padding: 30px 30px 10px 50px;
+    padding: 30px 30px 10px 30px;
     transition: .7s ease-in-out;
 }
 
@@ -74,41 +74,39 @@ a:hover {
 }
 
 .SCContents li {
-    /* line-height: 3em; */
     font-size: 127%;
-    /* text-decoration: none; */
     list-style-type: lower-roman;
     margin: 30px 0 0 -10px;
 }
 
 /* Block Combo */
 .blockCombo {
+/*
 	display: flex;
 	justify-content: center;
+	*/
 }
 
 .block1, .block2, .block3, .block4 {
+	float: left;
 	padding: 10px 20px 10px 20px;
-	margin: 0 5px 0 5px;
+	margin: 14px 5px 0 5px;
 	border: 1px solid white;
 	border-radius: 3px;
 	text-align: center;
+	width: 300px;
 }
 
 .block1 {
-	background: red;
 }
 
 .block2 {
-	background: blue;
 }
 
 .block3 {
-	background: green;
 }
 
 .block4 {
-background: gray;
 }
 
 
