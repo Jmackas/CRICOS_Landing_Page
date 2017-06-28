@@ -7,12 +7,20 @@ body, h1, h2, h3 {
 
 h1 {
     font-size: 4em;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
     font-weight: normal;
     font-size: 240%;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.32);
+    padding: 0 0 5px 0;
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+		text-align: center;
+	}
 }
 
 a {
@@ -56,7 +64,7 @@ a:hover {
 }
 
 .titleHeader {
-    background: linear-gradient(to bottom, #00244a, black);
+    background: linear-gradient(to bottom, #00458f, #002145);
     position: initial;
     top: 0;
     left: 0;
@@ -67,7 +75,7 @@ a:hover {
 
 /* SCContents styles */
 .SCContents {
-    background: linear-gradient(to bottom right, black, #00244a);
+    background: linear-gradient(to bottom, #002145, #000000);
 }
 
 .SCContents li {
@@ -90,6 +98,11 @@ a:hover {
 	border-radius: 3px;
 	text-align: center;
 	width: 300px;
+}
+
+.blockCombo hr {
+	color: rgba(0,0,0,0);
+	border: 1px dashed white;
 }
 
 .block1 {
