@@ -1,62 +1,71 @@
 /* Universal edits */
 body, h1, h2, h3 {
-	margin: 0;
-	font-family: roboto;
-	color: white;
+    margin: 0;
+    font-family: roboto;
+    color: white;
 }
 
 h1 {
-	font-size: 4em;
-	padding: 15px 0 0 25px;
+    font-size: 4em;
+    /* padding: 15px 0 0 25px; */
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 200%;
 }
 
 /* Section divisions */
-.SCHeader,  .SCContents {
-	padding: 10px 30px 10px 90px;
-	transition: .7s ease-in-out;
+.SCHeader, .SCContents {
+    padding: 30px 30px 10px 50px;
+    transition: .7s ease-in-out;
 }
 
 @media only screen and (max-width: 400px) {
-	.SCHeader, .backgroundContrast, .SCContents {
-		padding: 10px 5px 10px 5px;
-	}
+    .SCHeader, .backgroundContrast, .SCContents {
+        padding: 10px 5px 10px 5px;
+    }
 }
 
 /* SCHeader styles */
-
 .SCHeader {
-	background: #136fd2;
-	background-image: url('http://i.imgur.com/Mnu4u4w.jpg');
-	background-size: cover;
-	min-height: 385px;
-	background-attachment: fixed;
-	background-repeat:no-repeat;
-	background-position: 0 -312px;
+    background: #136fd2;
+    background-image: url('http://i.imgur.com/Mnu4u4w.jpg');
+    background-size: cover;
+    min-height: 460px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -60px;
 }
 
 @media only screen and (max-width: 400px) {
-	.SCHeader {
-		background-size: cover;
-		background-attachment: initial;
-		background-repeat: initial;
-		background-position: 0 467px;
-	}
+    .SCHeader {
+        background-size: cover;
+        background-attachment: initial;
+        background-repeat: initial;
+        background-position: 0 467px;
+    }
 }
 
-.backgroundContrast {
-	background: rgba(0, 0, 0, 0.5);
-	position: static;
-	margin: -9px -31px 0 -89px;
-}
-
-.SCHeader p {
-	padding: 0 0 15px 27px;
+.titleHeader {
+        background: linear-gradient(to bottom, #00244a, black);
+        position: initial;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 15px 10px 25px 20px;
+        /* clear: right; */
 }
 
 /* SCContents styles */
-
 .SCContents {
-	background: #136fd2;
+    background: linear-gradient(to bottom right, black, #00244a);
+}
+
+.SCContents li {
+    line-height: 3em;
+    /* text-decoration: none; */
+    margin: 0 0 0 -10px;
 }
 
 /* Navbar styling */
@@ -84,10 +93,9 @@ h1 {
 }
 
 .navBar a {
-	color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
 }
 
 .navBar a:hover {
     color: rgba(0,0,0,0);
 }
-
