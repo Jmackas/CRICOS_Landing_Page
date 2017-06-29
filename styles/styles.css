@@ -19,29 +19,29 @@ h3 {
 }
 
 h2 {
-	font-weight: normal;
-	font-size: 350%;
-	padding: 0 0 5px 0;
-	text-align: center;
-	text-shadow: 2px 2px black;
+    font-weight: normal;
+    font-size: 350%;
+    padding: 0 0 5px 0;
+    /* text-align: center; */
+    text-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 400px) {
     h1 {
-		text-align: center;
-	}
-	
-	h1 + p {
-		text-align: center;
-	}
+        text-align: center;
+    }
+
+    h1 + p {
+        text-align: center;
+    }
 }
 
 a {
-color: #ff8808;
+    color: #ff8808;
 }
 
 a:hover {
-	color: #ffbb73;
+    color: #ffbb73;
 }
 
 /* Section divisions */
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .SCContents p {
-	font-size: 100%;
+    font-size: 100%;
 }
 
 .SCContents li {
@@ -104,52 +104,47 @@ a:hover {
 
 /* Block Combo */
 .blockCombo {
-	display: flex;
-	justify-content: center;
-	
+    display: flex;
+    justify-content: center;
 }
 
 .block1, .block2, .block3, .block4 {
-	padding: 50px 20px 50px 20px;
-	margin: 14px 5px 0 5px;
-	border: 1px solid white;
-	border-radius: 3px;
-	text-align: center;
-	width: 350px;
-	transition: .7s ease-in-out;
+    padding: 50px 20px 50px 20px;
+    margin: 14px 5px 0 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+    width: 350px;
+    transition: .7s ease-in-out;
 }
 
 .block1:hover, .block2:hover, .block3:hover, .block4:hover {
-	filter: brightness(140%);
+    filter: brightness(140%);
 }
 
 .blockCombo hr {
-	color: rgba(0,0,0,0);
-	border: 1px dashed white;
+    color: rgba(0,0,0,0);
+    border: 1px dashed white;
 }
 
 .block1 {
-	background: #7e0047;
-	/* background: linear-gradient(to bottom right, #7e0047,black ); */
+    background: #7e0047;
+    /* background: linear-gradient(to bottom right, #7e0047,black ); */
 }
 
 .block2 {
-	background: #990000;
-	/* background: linear-gradient(to bottom left, #990000,black); */
+    background: #990000;
+    /* background: linear-gradient(to bottom left, #990000,black); */
 }
 
 .block3 {
-	background: navy;
-	/* background: linear-gradient(to top right,navy,black ); */
+    background: navy;
+    /* background: linear-gradient(to top right,navy,black ); */
 }
 
 .block4 {
-	background: darkgreen;
-	/* background: linear-gradient(to top left, darkgreen,black ); */
-}
-
-/* Study Now! call to action */
-.actionBtn {
+    background: darkgreen;
+    /* background: linear-gradient(to top left, darkgreen,black ); */
 }
 
 
@@ -166,15 +161,33 @@ a:hover {
 
 ::-webkit-scrollbar-thumb {
     background-color: gray;
-   /* background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent); */
+    /* background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent); */
 }
 
 /* SCAction */
 .SCAction {
-	background: #F57C00;
+    background: #F57C00;
+    text-align: center;
 }
 
+.actionBtn {
+    display: inline-block;
+    background: #136fd2;
+    padding: 40px 80px 40px 80px;
+    border-radius: 10px;
+    border: 1px solid #002042;
+	transition: .4s ease-in-out;
+}
 
+.actionBtn:hover {
+	background: rgb(0, 31, 66);
+}
+
+.actionBtn span {
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 180%;
+}
 
 /* Navbar styling */
 /*
@@ -209,4 +222,3 @@ a:hover {
     color: rgba(0,0,0,0);
 }
 */
-
