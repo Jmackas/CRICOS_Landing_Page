@@ -170,6 +170,10 @@ a:hover {
     text-align: center;
 }
 
+.SCAction p {
+	font-size: 160%;
+}
+
 .actionBtn {
     display: inline-block;
     background: #136fd2;
@@ -188,6 +192,15 @@ a:hover {
     color: white;
     font-size: 180%;
 }
+
+/* Footer */
+footer {
+	background: black;
+	position: relative;
+	bottom: 0;
+	padding: 0 0 0 0;
+}
+
 
 /* Navbar styling */
 /*
