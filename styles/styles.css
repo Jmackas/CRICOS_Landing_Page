@@ -16,6 +16,7 @@ h3 {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.32);
     padding: 0 0 5px 0;
     text-shadow: 2px 2px black;
+    text-align: center;
 }
 
 h2 {
@@ -90,6 +91,7 @@ a:hover {
 /* SCContents styles */
 .SCContents {
     background: linear-gradient(to bottom, #000f20, #002145);
+    /* text-align: center; */
 }
 
 .SCContents p {
