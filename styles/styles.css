@@ -50,6 +50,29 @@ a:hover {
     color: #ffbb73;
 }
 
+/* Fixed top left section */
+.fixedLeft {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    border-bottom: 2px dashed #9d9d9d;
+    border-right: 2px dashed #9d9d9d;
+    border-bottom-right-radius: 15px;
+    background: #136fd2;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.fixedLeft:hover {
+	border-bottom: 2px dashed rgba(0,0,0,0);
+    border-right: 2px dashed rgba(0,0,0,0);
+}
+
+.hyperlinkRemoval a  {
+	color: white;
+}
+
 /* Section divisions */
 .SCHeader, .SCContents, .SCAction {
     padding: 30px 30px 10px 30px;
