@@ -1,10 +1,10 @@
 /* Universal edits */
-
 body, h1, h2, h3 {
     margin: 0;
     font-family: roboto;
     color: white;
 }
+
 
 .loadingDiv {
    position: fixed;

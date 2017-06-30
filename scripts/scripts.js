@@ -1,3 +1,3 @@
 $('a').click(function(){
-   $('<div class=loadingDiv>Transferring you now...</div>').prependTo(document.body); 
+   $('<div class=loadingDiv>Transferring now...</div>').prependTo(document.body); 
 });
