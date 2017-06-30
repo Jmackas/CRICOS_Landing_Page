@@ -66,17 +66,17 @@ a:hover {
 
 /* Fixed top left section */
 .fixedLeft {
-	opacity: 0.3;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 20px;
-    border-bottom: 2px dashed #9d9d9d;
-    border-right: 2px dashed #9d9d9d;
-    border-bottom-right-radius: 15px;
-    background: #136fd2;
-    text-align: center;
-    transition: .3s ease-in-out;
+	opacity: 0.5;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 20px;
+	border-bottom: 2px dashed #9d9d9d;
+	border-right: 2px dashed #9d9d9d;
+	border-bottom-right-radius: 15px;
+	background: #001125;
+	text-align: center;
+	transition: .3s ease-in-out;
 }
 
 .fixedLeft:hover {
@@ -109,7 +109,7 @@ a:hover {
 /* SCHeader styles */
 .SCHeader {
     background: #000f20;
-    background-image: url('http://i.imgur.com/3zuBLWy.jpg');
+    background-image: url('http://i.imgur.com/WJQTZo3.jpg');
     background-size: cover;
     min-height: 460px;
     background-attachment: fixed;
