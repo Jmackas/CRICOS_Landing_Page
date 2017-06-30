@@ -1,12 +1,12 @@
 /* Universal edits */
 @font-face {
-    font-family: myFirstFont;
-    src: url(elements/break_bold.ttf);
+    font-family: test;
+    src: url(elements/break_bold.woff);
 }
 
 body, h1, h2, h3 {
     margin: 0;
-    font-family: myFirstFont;
+    font-family: test;
     color: white;
 }
 
