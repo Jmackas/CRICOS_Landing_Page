@@ -152,7 +152,7 @@ a:hover {
 
 /* SCContents styles */
 .SCContents {
-    background: linear-gradient(to bottom, #000f20, #002145);
+    background: #00142a;
     font-size: 138%;
     overflow: auto;
 }
