@@ -32,7 +32,7 @@ h1 + p {
 h3 {
     font-weight: normal;
     font-size: 240%;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.32);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.62);
     padding: 0 0 5px 0;
     text-shadow: 2px 2px black;
     text-align: center;
@@ -95,13 +95,13 @@ a:hover {
 }
 
 /* Section divisions */
-.SCHeader, .SCContents, .SCAction {
+.SCHeader, .SCContents, .SCAction, .SCOffer, .SCinternet {
     padding: 30px 30px 10px 30px;
     transition: .7s ease-in-out;
 }
 
 @media only screen and (max-width: 400px) {
-    .SCHeader, .backgroundContrast, .SCContents, .SCAction {
+    .SCHeader, .backgroundContrast, .SCContents, .SCAction, .SCOffer, .SCinternet {
         padding: 10px 5px 10px 5px;
     }
 }
@@ -206,6 +206,22 @@ a:hover {
 .block4 {
     background: darkgreen;
     /* background: linear-gradient(to top left, darkgreen,black ); */
+}
+
+/* Section offers available */
+.SCOffer {
+	background: #002145;
+}
+
+.SCOffer li {
+ font-size: 127%;
+    list-style-type: lower-roman;
+    margin: 30px 0 0 -10px;
+}
+	
+/* Section that offers internet */
+.SCinternet {
+background: #001f41;
 }
 
 
