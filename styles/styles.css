@@ -31,7 +31,7 @@ h1 + p {
 
 h3 {
     font-weight: normal;
-    font-size: 240%;
+    font-size: 175%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.62);
     padding: 0 0 5px 0;
     text-shadow: 2px 2px black;
@@ -66,22 +66,24 @@ a:hover {
 
 /* Fixed top left section */
 .fixedLeft {
-	opacity: 0.5;
 	position: fixed;
+	/* opacity: 0.7; */
 	left: 0;
 	top: 0;
-	padding: 20px;
-	border-bottom: 2px dashed #9d9d9d;
-	border-right: 2px dashed #9d9d9d;
-	border-bottom-right-radius: 15px;
-	background: #001125;
+	padding: 10px;
+	width: 118px;
+	border-bottom: 2px solid #c7c7c7;
+	border-right: 2px solid #c7c7c7;
+	border-bottom-right-radius: 44px;
+	background: rgba(19, 111, 210, 0.6);
 	text-align: center;
 	transition: .3s ease-in-out;
 }
 
 .fixedLeft:hover {
-	border-bottom: 2px dashed rgba(0,0,0,0);
-    border-right: 2px dashed rgba(0,0,0,0);
+	/* border-bottom: 2px dashed rgba(0,0,0,0); */
+	/* border-right: 2px dashed rgba(0,0,0,0); */
+	background: rgb(0, 23, 48);
 }
 
 .hyperlinkRemoval a  {
@@ -95,13 +97,13 @@ a:hover {
 }
 
 /* Section divisions */
-.SCHeader, .SCContents, .SCAction, .SCOffer, .SCinternet {
+.SCHeader, .SCContents, .SCAction{
     padding: 30px 30px 10px 30px;
     transition: .7s ease-in-out;
 }
 
 @media only screen and (max-width: 400px) {
-    .SCHeader, .backgroundContrast, .SCContents, .SCAction, .SCOffer, .SCinternet {
+    .SCHeader, .backgroundContrast, .SCContents, .SCAction {
         padding: 10px 5px 10px 5px;
     }
 }
@@ -122,7 +124,7 @@ a:hover {
         background-size: cover;
         background-attachment: initial;
         background-repeat: initial;
-        background-position: 0 467px;
+        background-position: center right;
     }
 }
 
@@ -140,6 +142,8 @@ a:hover {
 /* SCContents styles */
 .SCContents {
     background: linear-gradient(to bottom, #000f20, #002145);
+    font-size: 138%;
+    overflow: auto;
 }
 
 .SCContents strong {
@@ -147,13 +151,17 @@ a:hover {
 }
 
 .SCContents p {
-    font-size: 100%;
 }
 
 .SCContents li {
-    font-size: 127%;
     list-style-type: lower-roman;
     margin: 30px 0 0 -10px;
+}
+
+.SCContents img {
+	float: left;
+	width: 72px;
+	margin: 22px 6px 0 0;
 }
 
 /* Block Combo */
@@ -207,22 +215,7 @@ a:hover {
     background: darkgreen;
     /* background: linear-gradient(to top left, darkgreen,black ); */
 }
-
-/* Section offers available */
-.SCOffer {
-	background: #002145;
-}
-
-.SCOffer li {
- font-size: 127%;
-    list-style-type: lower-roman;
-    margin: 30px 0 0 -10px;
-}
 	
-/* Section that offers internet */
-.SCinternet {
-background: #001f41;
-}
 
 
 /* Custom scroll bar */
