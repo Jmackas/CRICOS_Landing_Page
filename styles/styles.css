@@ -164,6 +164,11 @@ a:hover {
     user-select: none;
 }
 
+.blockCombo a {
+	color: white;
+	text-decoration: none;
+}
+
 .block1, .block2, .block3, .block4 {
     padding: 50px 20px 50px 20px;
     margin: 14px 5px 0 5px;
@@ -175,7 +180,7 @@ a:hover {
 }
 
 .block1:hover, .block2:hover, .block3:hover, .block4:hover {
-    filter: brightness(140%);
+    filter: brightness(150%);
 }
 
 .blockCombo hr {
