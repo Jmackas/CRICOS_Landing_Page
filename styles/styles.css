@@ -240,6 +240,12 @@ a:hover {
 	padding: 20px;
 	}
 }
+
+@media only screen and (max-width: 476px) {
+	.block1, .block2, .block3, .block4 {
+	width: 83%;
+	}
+}
 	
 
 
