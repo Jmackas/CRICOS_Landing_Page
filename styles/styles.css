@@ -23,11 +23,11 @@ body, h1, h2, h3 {
 }
    
    
-@keyframes {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+@keyframes loading {
+    0%   {color: black;}
+    25%  {color: gray;}
+    50%  {color: lightgray;}
+    100% {color: white;}
 }
 
 h1 {
