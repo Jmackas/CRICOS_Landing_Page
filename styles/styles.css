@@ -5,29 +5,38 @@ body, h1, h2, h3 {
     color: white;
 }
 
-
 .loadingDiv {
-   position: fixed;
-   font-size: 250%;
-   text-align: center;
-   font-weight: bold;
-   top:0;
-   cursor: progress;
-   left:0;
-   right:0;
-   bottom:0;
-   z-index: 999;
-   background-color: rgba(0,0,0,0.95);
+    position: fixed;
+    font-size: 250%;
+    text-align: center;
+    font-weight: bold;
+    top: 0;
+    cursor: progress;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.95);
     animation-name: loading;
     animation-duration: 4s;
 }
-   
-   
+
 @keyframes loading {
-    0%   {color: black;}
-    25%  {color: gray;}
-    50%  {color: lightgray;}
-    100% {color: white;}
+    0% {
+        color: black;
+    }
+
+    25% {
+        color: gray;
+    }
+
+    50% {
+        color: lightgray;
+    }
+
+    100% {
+        color: white;
+    }
 }
 
 h1 {
@@ -37,7 +46,7 @@ h1 {
 }
 
 h1 + p {
-	text-align: center;
+    text-align: center;
 }
 
 h3 {
@@ -77,28 +86,28 @@ a:hover {
 
 /* Fixed top left section */
 .fixedLeft {
-	position: fixed;
-	/* opacity: 0.7; */
-	left: 0;
-	top: 0;
-	padding: 10px;
-	width: 118px;
-	border-bottom: 2px solid #c7c7c7;
-	border-right: 2px solid #c7c7c7;
-	border-bottom-right-radius: 44px;
-	background: rgba(19, 111, 210, 0.6);
-	text-align: center;
-	transition: .3s ease-in-out;
+    position: fixed;
+    /* opacity: 0.7; */
+    left: 0;
+    top: 0;
+    padding: 10px;
+    width: 118px;
+    border-bottom: 2px solid #c7c7c7;
+    border-right: 2px solid #c7c7c7;
+    border-bottom-right-radius: 44px;
+    background: rgba(19, 111, 210, 0.6);
+    text-align: center;
+    transition: .3s ease-in-out;
 }
 
 .fixedLeft:hover {
-	/* border-bottom: 2px dashed rgba(0,0,0,0); */
-	/* border-right: 2px dashed rgba(0,0,0,0); */
-	background: rgb(0, 23, 48);
+    /* border-bottom: 2px dashed rgba(0,0,0,0); */
+    /* border-right: 2px dashed rgba(0,0,0,0); */
+    background: rgb(0, 23, 48);
 }
 
-.hyperlinkRemoval a  {
-	color: white;
+.hyperlinkRemoval a {
+    color: white;
 }
 
 @media only screen and (max-width: 700px) {
@@ -108,7 +117,7 @@ a:hover {
 }
 
 /* Section divisions */
-.SCHeader, .SCContents, .SCAction{
+.SCHeader, .SCContents, .SCAction {
     padding: 30px 30px 10px 30px;
     transition: .7s ease-in-out;
 }
@@ -158,7 +167,7 @@ a:hover {
 }
 
 .SCContents strong {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .SCContents p {
@@ -170,9 +179,9 @@ a:hover {
 }
 
 .SCContents img {
-	float: left;
-	width: 72px;
-	margin: 22px 6px 0 0;
+    float: left;
+    width: 72px;
+    margin: 22px 6px 0 0;
 }
 
 /* Block Combo */
@@ -184,8 +193,8 @@ a:hover {
 }
 
 .blockCombo a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .block1, .block2, .block3, .block4 {
@@ -234,20 +243,18 @@ a:hover {
         /* margin: auto; */
         /* text-align: -webkit-center; */
     }
-	
-	.block1, .block2, .block3, .block4 {
-	/* width: 91%; */
-	padding: 20px;
-	}
+
+    .block1, .block2, .block3, .block4 {
+        /* width: 91%; */
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 476px) {
-	.block1, .block2, .block3, .block4 {
-	width: 83%;
-	}
+    .block1, .block2, .block3, .block4 {
+        width: 83%;
+    }
 }
-	
-
 
 /* Custom scroll bar */
 ::-webkit-scrollbar-track {
@@ -272,7 +279,7 @@ a:hover {
 }
 
 .SCAction p {
-	font-size: 160%;
+    font-size: 160%;
 }
 
 .actionBtn {
@@ -281,11 +288,11 @@ a:hover {
     padding: 40px 80px 40px 80px;
     border-radius: 10px;
     border: 1px solid #002042;
-	transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
 }
 
 .actionBtn:hover {
-	background: rgb(0, 31, 66);
+    background: rgb(0, 31, 66);
 }
 
 .actionBtn span {
@@ -296,13 +303,12 @@ a:hover {
 
 /* Footer */
 footer {
-	background: black;
-	position: relative;
-	bottom: 0;
-	padding: 10px 0 10px 0;
-	text-align: center;
+    background: black;
+    position: relative;
+    bottom: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
-
 
 /* Navbar styling */
 /*
