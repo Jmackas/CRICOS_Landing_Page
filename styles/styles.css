@@ -1,8 +1,17 @@
 /* Universal edits */
+@font-face {
+    font-family: breakBold;
+    src: url(../elements/break_bold.ttf);
+}
+
 body, h1, h2, h3 {
     margin: 0;
     font-family: roboto;
     color: white;
+}
+
+h1, h2, h3 {
+	font-family: breakBold;
 }
 
 .loadingDiv {
@@ -17,27 +26,9 @@ body, h1, h2, h3 {
     bottom: 0;
     z-index: 999;
     background-color: rgba(0,0,0,0.95);
-    animation-name: loading;
-    animation-duration: 4s;
 }
 
-@keyframes loading {
-    0% {
-        color: black;
-    }
 
-    25% {
-        color: gray;
-    }
-
-    50% {
-        color: lightgray;
-    }
-
-    100% {
-        color: white;
-    }
-}
 
 h1 {
     font-size: 4.6em;
