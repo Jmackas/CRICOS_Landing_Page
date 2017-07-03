@@ -49,6 +49,12 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    margin: 0 0 0 0;
+    text-align: center;
+    font-weight: normal;
+}
+
 h2 {
     font-weight: normal;
     font-size: 350%;
@@ -181,10 +187,16 @@ a:hover {
 
 .divEncap .clmnLeft {
 	float: left;
+	width: 55%;
+	margin: 0 1% 0 0;
 }
 
 .divEncap .clmnRight {
-	float: left;
+	float: right;
+	width: 35%;
+	margin: 0 0 0 1%;
+	    border: 1px solid white;
+	border-radius: 1px;
 }
 
 /* Block Combo */
