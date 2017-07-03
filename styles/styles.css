@@ -175,6 +175,18 @@ a:hover {
     margin: 22px 6px 0 0;
 }
 
+.divEncap {
+	overflow: auto;
+}
+
+.divEncap .clmnLeft {
+	float: left;
+}
+
+.divEncap .clmnRight {
+	float: left;
+}
+
 /* Block Combo */
 .blockCombo {
     display: flex;
