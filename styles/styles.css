@@ -131,7 +131,7 @@ a:hover {
 /* SCHeader styles */
 .SCHeader {
     background: #000f20;
-    background-image: url('../elements/parallax_1.jpg');
+    background-image: url('http://i.imgur.com/WJQTZo3.jpg');
     background-size: cover;
     min-height: 460px;
     background-attachment: fixed;
@@ -357,8 +357,9 @@ footer {
     background: black;
     position: relative;
     bottom: 0;
-    padding: 10px 0 10px 0;
+    padding: 40px 0 40px 0;
     text-align: center;
+    font-size: 119%;
 }
 
 /* Navbar styling */
